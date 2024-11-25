@@ -5,10 +5,6 @@
 </picture>
 
 <div align="center">
-    <span style="display: inline-block; margin-right: 30px;">
-        <img src="https://img.shields.io/badge/Prism_Pipeline-2.0.13-mediumseagreen" alt="Prism Pipeline Version">
-    </span>
-    <span style="display: inline-block;">    
+        <img src="https://img.shields.io/badge/Prism_Pipeline-2.0.13-mediumseagreen" alt="Prism Pipeline Version" style="margin-right: 0 30px;"> 
         <img src="https://img.shields.io/badge/Slack_Plugin-2.0.13-4A154B?logo=slack" alt="Slack Plugin Version">
-    </span>
 </div>
