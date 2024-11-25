@@ -5,7 +5,7 @@
 </picture>
 
 <div align="center">
-    <span style="display: inline-block margin-right: 30px;">
+    <span style="display: inline-block; margin-right: 30px;">
         <img src="https://img.shields.io/badge/Prism_Pipeline-2.0.13-mediumseagreen" alt="Prism Pipeline Version">
     </span>
     <span style="display: inline-block;">    
