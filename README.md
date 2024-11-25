@@ -6,5 +6,7 @@
 
 <p align="center">
 ![Prism-Pipeline-Version](https://img.shields.io/badge/Prism_Pipeline-2.0.13-mediumseagreen)
+</p>
+<p align="center">
 ![Slack-Plugin-Version](https://img.shields.io/badge/Slack_Plugin-2.0.13-4A154B?logo=slack)
 </p>
