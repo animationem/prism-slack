@@ -5,6 +5,6 @@
 </picture>
 
 <div align="center">
-    ![Prism-Pipeline-Version](https://img.shields.io/badge/Prism_Pipeline-2.0.13-mediumseagreen)
-    ![Slack-Plugin-Version](https://img.shields.io/badge/Slack_Plugin-2.0.13-4A154B?logo=slack)
+    <img src="https://img.shields.io/badge/Prism_Pipeline-2.0.13-mediumseagreen" alt="Prism Pipeline Version")
+    <img src="https://img.shields.io/badge/Slack_Plugin-2.0.13-4A154B?logo=slack" alt="Slack Plugin Version")
 </div>
