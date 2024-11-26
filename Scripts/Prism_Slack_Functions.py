@@ -447,6 +447,14 @@ class Prism_Slack_Functions(object):
         return output_file
 
     @err_catcher(name=__name__)
+    def getProjectSlackConfig(self):
+        project_config = self.core.getConfig(configPath=self.core.prismIni)
+        with open(project_config, "r") as f:
+            proj_config = json.load(f)
+        
+        return proj_config
+
+    @err_catcher(name=__name__)
     def getStudioSlackConfig(self):
         studio_plugin = self.core.plugins.getPlugin("Studio")
         studio_slack_config = os.path.join(studio_plugin.getStudioPath(), "configs", "slack.json")
@@ -455,10 +463,13 @@ class Prism_Slack_Functions(object):
     
     @err_catcher(name=__name__)
     def getNotifyMethod(self):
-        studio_slack_config = self.getStudioSlackConfig()
-        with open(studio_slack_config, "r") as f:
-            load_config = json.load(f)
+        if self.isStudioLoaded is True:
+            studio_slack_config = self.getStudioSlackConfig()
+            with open(studio_slack_config, "r") as f:
+                load_config = json.load(f)
             
+        else:
+
             return load_config["slack"]["notify_method"]
 
     # Get Slack Access Token from environment variable
