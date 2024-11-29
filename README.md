@@ -10,8 +10,12 @@
 </div>
   
 > [!IMPORTANT]  
-> As this readme continues to grow, full docs will be migrated to a designated location that will be provided in the near future.
+> As this readme continues to grow, full docs will be migrated to a designated location that will be provided in the near future.  
   
+> [!WARNING]
+> This plugin is going to be getting reorganized for modularity. It is getting too big to only be primarily 2 files. Major updates are planned.  
+  
+    
 ## Table of Contents  
 1. [Introduction](#introduction)
 2. [Requirements](#requirements)
